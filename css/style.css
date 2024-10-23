@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1{
+  font-family: "Titan One", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.primaryButton {
+  border: 1px red solid;
+  color: red;
+  background-color: thistle;
+}
+
+.secondaryButton {
+  border: 1px red solid;
+  background-color: red;
+  color: thistle;
+}
+
+.navbar {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.none{
+  display: none;
+}
+
+/* nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+} */
+
+.sectionOne{
+  background-color: aquamarine;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
